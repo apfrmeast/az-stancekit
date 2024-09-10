@@ -45,7 +45,6 @@ RegisterNetEvent('az:stance:removeStance', function(plate)
   MySQL.query.await('UPDATE ' .. vehiclesTable .. ' SET has_stance = 0, stance_mods = "{}" WHERE plate = ? LIMIT 1', {plate})
   for k, v in pairs(stancedVehicles) do
     if v.plate == plate then
-      
       Entity(k).state:set("vehicle_stance", nil, true)
     end
   end
