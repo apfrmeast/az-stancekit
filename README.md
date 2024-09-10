@@ -1,5 +1,5 @@
 # az-stancekit
-FiveM modern stance kit script
+FiveM modern stance kit script converted to ESX
 ![image](https://github.com/azutake/az-stancekit/assets/5910976/784e3934-e16c-43c2-838f-1b80819aee69)
 
 # features
@@ -12,4 +12,4 @@ FiveM modern stance kit script
 # dependencies
 
 - [oxmysql (Required)](https://github.com/overextended/oxmysql)
-- [QBCore (Required)](https://github.com/qbcore-framework/qb-core)
+- [ESX (Required)](https://github.com/ESX-Official/es_extended)
