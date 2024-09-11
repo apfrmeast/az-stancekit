@@ -4,8 +4,8 @@ local lastChecked = {}
 local vehiclesTable = "owned_vehicles"
 
 RegisterNetEvent('esx:playerLoaded')
-AddEventHandler('esx:playerLoaded', function(xPlayer, _, _)
-  TriggerClientEvent("az:stancekit:playerReady", xPlayer.PlayerData.source)
+AddEventHandler('esx:playerLoaded', function(source, xPlayer, _, _)
+  TriggerClientEvent("az:stancekit:playerReady", source)
 end)
 
 ESX.RegisterUsableItem(Config.StanceItem, function(source, item)
